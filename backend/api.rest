@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:5000/api/signup
+content-type: application/json
+
+{
+    "email": "sampleeee21",
+    "password": "12213123"
+}
+
+###
+
+POST http://localhost:5000/api/signin
+Content-Type: application/json
+
+{
+    "email": "sampleeee21",
+    "password": "12213123"
+}
+
+###
+
+GET http://localhost:5000/api/task
